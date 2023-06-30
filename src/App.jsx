@@ -7,7 +7,7 @@ function App (){
   return(
     <Router>
       <Routes>
-          <Route path='/' element={<QR />} />
+          <Route path='/QRCode' element={<QR />} />
       </Routes>
     </Router>
   )
